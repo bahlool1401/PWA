@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --env.mode production",
-    "serve": "http-server dist -c0 -p 8000"
+    "serve": "http-server dist -c0 -p 8000",
+    "dev": "webpack-dev-server --env.mode development --colors"
   },
   "keywords": [],
   "author": "",
